@@ -1,0 +1,541 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1668385543987755, "dur": 5086731, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385543989086, "dur": 15211, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385544004302, "dur": 144807, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385544149165, "dur": 1774357, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385545923525, "dur": 3139025, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385549062553, "dur": 11931, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385549081809, "dur": 29, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1668385545638883, "dur": 254547, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668385545640660, "dur": 55560, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668385545876136, "dur": 5379, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668385545881519, "dur": 11902, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668385545882279, "dur": 10481, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668385545900392, "dur": 2398, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668385545898297, "dur": 4534, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385549081930, "dur": 219, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1668385545968956, "dur":1192, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385545970159, "dur":112, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1668385545970287, "dur":28, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1668385545970316, "dur":261, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1668385545970602, "dur":520, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385545971122, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385549035937, "dur":97, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385549036034, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385549036069, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385549036073, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385549036080, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385549036082, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385549036092, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385549036094, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385549036100, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385549036102, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385549036107, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385549036109, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385549036115, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385549036129, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385549036170, "dur":2080, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1668385545971283, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385545971284, "dur":5490, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385545976789, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668385545976790, "dur":15552, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385545992352, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668385545992357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385545992405, "dur":5702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1668385545998110, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1668385545998204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385545998209, "dur":688487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1668385546686728, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385546686763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385546686766, "dur":310728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385546997525, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385546997561, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385546997564, "dur":301591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385547299190, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385547299221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385547299226, "dur":143730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385547442994, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385547443026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385547443030, "dur":37800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385547480858, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385547480888, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385547480892, "dur":56202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385547537123, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385547537151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385547537155, "dur":73932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385547611118, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385547611151, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385547611155, "dur":135041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385547746226, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385547746261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385547746265, "dur":91052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385547837345, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385547837390, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385547837394, "dur":129146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385547966572, "dur":191566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385548158142, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385548158148, "dur":81923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385548240100, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385548240164, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385548240167, "dur":331249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385548571445, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385548571557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385548571562, "dur":100569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385548672162, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385548672245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385548672248, "dur":110722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385548783001, "dur":22626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385548805631, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385548805642, "dur":841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668385548806510, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668385548806538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385548806541, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668385548807995, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1668385548808025, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668385548808028, "dur":80683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1668385548888763, "dur":147204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385545971561, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385545971561, "dur":5223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385545976789, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1668385545977027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385545978178, "dur":53716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1668385546031925, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668385546032009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385546045004, "dur":149300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668385546194399, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1668385546194680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385546194837, "dur":75922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1668385546270790, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1668385546270984, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385546270994, "dur":73203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1668385546344231, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1668385546344341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385546344345, "dur":162854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1668385546507234, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita.exe" }}
+,{ "pid":12345, "tid":2, "ts":1668385546507293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385546507297, "dur":24349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita.exe" }}
+,{ "pid":12345, "tid":2, "ts":1668385546531681, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1668385546531776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385546531812, "dur":70104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1668385546601954, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385546602045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385546602089, "dur":110774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385546712925, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385546712962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385546712966, "dur":213646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385546926641, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385546926680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385546926686, "dur":153431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385547080150, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385547080187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385547080192, "dur":151742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385547231962, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385547231992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385547231996, "dur":102459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385547334485, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385547334515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385547334519, "dur":174939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385547509490, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385547509522, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385547509526, "dur":135795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385547645354, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385547645384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385547645389, "dur":67786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385547713204, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385547713237, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385547713241, "dur":92772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385547806043, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385547806073, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385547806077, "dur":104128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385547910235, "dur":85955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385547996194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385547996200, "dur":782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385547997009, "dur":53549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385548050560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385548050565, "dur":699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385548051293, "dur":45399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385548096721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385548096735, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385548098489, "dur":45287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385548143780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385548143785, "dur":96153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385548240027, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385548240111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385548240116, "dur":140898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385548381044, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385548381120, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385548381125, "dur":69136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385548450293, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385548450475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385548450478, "dur":122094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385548572603, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385548572677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385548572682, "dur":144521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385548717230, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385548717304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668385548717309, "dur":318585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668385549035922, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1668385549035923, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385545971497, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385545971498, "dur":5361, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385545976860, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1668385545976963, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385545994343, "dur":91292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1668385546085668, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1668385546085782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385546085786, "dur":108710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1668385546194553, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1668385546194750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385546194846, "dur":76328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1668385546271205, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385546271288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385546271338, "dur":34472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385546305876, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385546306015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385546306020, "dur":303978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385546610030, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385546610112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385546610118, "dur":116512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385546726657, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385546726690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385546726694, "dur":320407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547047147, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547047403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385547047407, "dur":79661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547127099, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547127128, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385547127132, "dur":155591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547282752, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547282782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385547282787, "dur":111370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547394187, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547394218, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385547394222, "dur":48643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547442896, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547442928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385547442951, "dur":36911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547479891, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547479920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385547479925, "dur":139992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547619944, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547619972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385547619990, "dur":28934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547648999, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547649054, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385547649059, "dur":84301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547733389, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547733418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385547733423, "dur":77966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547811419, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547811448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385547811453, "dur":57759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547869243, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547869273, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385547869293, "dur":57025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547926365, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385547926472, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385547926476, "dur":133967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385548060474, "dur":72802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385548133280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385548133286, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385548134143, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385548134225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385548134230, "dur":317725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385548451982, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385548452047, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385548452050, "dur":220661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385548672743, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385548672807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385548672811, "dur":122348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668385548795186, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1668385548795303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385548795336, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1668385548796126, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1668385548796155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385548796159, "dur":3123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1668385548799326, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668385548799358, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385548799361, "dur":7028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668385548806424, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668385548806456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668385548806461, "dur":56208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668385548862701, "dur":173233, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385545971527, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385545971528, "dur":5305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385545976834, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1668385545977000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385545994312, "dur":86903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1668385546081247, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1668385546081339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385546081344, "dur":20290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1668385546101666, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1668385546101749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385546101768, "dur":584830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1668385546686634, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385546686679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385546686684, "dur":161398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385546848110, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385546848146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385546848151, "dur":92236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385546940416, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385546940447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385546940452, "dur":67149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547007635, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547007670, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385547007677, "dur":113347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547121056, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547121085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385547121090, "dur":111911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547233029, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547233065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385547233069, "dur":152587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547385684, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547385713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385547385718, "dur":86853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547472610, "dur":846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547473460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385547473466, "dur":53201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547526697, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547526732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385547526737, "dur":70052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547596850, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547596926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385547596931, "dur":52441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547649401, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547649430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385547649434, "dur":91460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547740925, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547740953, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385547740958, "dur":78393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547819380, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547819409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385547819413, "dur":106075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385547925518, "dur":124240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385548049763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385548049768, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385548050798, "dur":14090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385548064893, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385548064901, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385548065669, "dur":39368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385548105042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385548105048, "dur":650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385548105727, "dur":45024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385548150754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385548150759, "dur":89455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385548240243, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385548240305, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385548240308, "dur":283849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385548524186, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385548524263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385548524268, "dur":203428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385548727725, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385548727799, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668385548727803, "dur":240222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668385548968052, "dur":67900, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385545971590, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385545971590, "dur":5225, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385545976815, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1668385545977053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385545994353, "dur":91213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1668385546085604, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1668385546085691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385546085697, "dur":108604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1668385546194339, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1668385546194584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385546225840, "dur":44813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1668385546270691, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1668385546270780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385546270786, "dur":47547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1668385546318371, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385546318464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385546318468, "dur":752949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547071451, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547071483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385547071488, "dur":168436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547239975, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547240037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385547240043, "dur":82022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547322099, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547322131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385547322136, "dur":95821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547417984, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547418011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385547418016, "dur":35481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547453525, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547453570, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385547453575, "dur":45812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547499427, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547499475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385547499481, "dur":105903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547605415, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547605445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385547605450, "dur":105057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547710537, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547710568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385547710573, "dur":84937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547795537, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547795565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385547795570, "dur":74795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547870395, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547870456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385547870461, "dur":73930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385547944422, "dur":109481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385548053906, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385548053912, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385548054821, "dur":32207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385548087032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385548087038, "dur":668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385548087733, "dur":34316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385548122053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385548122058, "dur":668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385548122777, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385548122860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385548122864, "dur":141879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385548264783, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385548264867, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385548264877, "dur":141805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385548406711, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385548406803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385548406808, "dur":183374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385548590210, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385548590283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385548590291, "dur":209958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668385548800280, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1668385548800311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385548800314, "dur":36043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1668385548836389, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1668385548836418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385548836422, "dur":797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1668385548837248, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1668385548837277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385548837280, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1668385548838241, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1668385548838274, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385548838278, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1668385548839024, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1668385548839131, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668385548839133, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1668385548840027, "dur":195919, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385545971611, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385545971612, "dur":5190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385545976803, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1668385545976963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385546052733, "dur":142315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1668385546195081, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1668385546195165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385546195168, "dur":36404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1668385546231612, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1668385546231730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385546231736, "dur":454909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1668385546686680, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385546686731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385546686734, "dur":160031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385546846795, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385546846831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385546846836, "dur":150516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385546997385, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385546997432, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385546997436, "dur":49499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547046969, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547047006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385547047011, "dur":75686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547122731, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547122800, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385547122804, "dur":71813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547194648, "dur":115797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547310448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385547310453, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547311276, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547311317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385547311321, "dur":112688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547424044, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547424076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385547424081, "dur":59229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547483337, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547483368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385547483373, "dur":94961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547578391, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547578443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385547578448, "dur":63509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547641986, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547642015, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385547642019, "dur":46545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547688594, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547688671, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385547688675, "dur":37716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547726417, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547726447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385547726468, "dur":186250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385547912747, "dur":96407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385548009159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548009165, "dur":835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385548010030, "dur":60224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385548070258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548070264, "dur":653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385548070944, "dur":4423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385548075372, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548075392, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385548076157, "dur":64222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385548140383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548140392, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385548141367, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385548141452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548141457, "dur":201704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385548343292, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385548343484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548343489, "dur":106808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385548450328, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385548450448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548450455, "dur":221470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385548671960, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385548672054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548672060, "dur":127642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668385548799972, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668385548800027, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548800031, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668385548801064, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668385548801099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548801105, "dur":6597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668385548807739, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1668385548807791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548807797, "dur":12466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1668385548820296, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668385548820326, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548820333, "dur":6988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668385548827357, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1668385548827490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548827496, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1668385548828308, "dur":1371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1668385548829685, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548829696, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1668385548831000, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/level3.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668385548831057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548831062, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/level3.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668385548832076, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1668385548832104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548832110, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1668385548833323, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668385548833357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548833364, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668385548834611, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1668385548834643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548834647, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1668385548835773, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668385548835808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548835815, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668385548837067, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668385548837095, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548837098, "dur":773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1668385548837910, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles PuntoExe/Vivero_Tita_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668385548837952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668385548837957, "dur":2155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"PuntoExe/Vivero_Tita_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1668385548840139, "dur":195828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668385549039708, "dur":1647, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1668385549082215, "dur": 932, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668385549081787, "dur": 1385, "ph": "X", "name": "Write chrome-trace events", "args": {} },

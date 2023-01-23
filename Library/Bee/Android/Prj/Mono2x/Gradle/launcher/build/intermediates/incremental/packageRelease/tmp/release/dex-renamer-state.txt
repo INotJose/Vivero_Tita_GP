@@ -1,0 +1,4 @@
+#Thu Nov 10 21:06:09 COT 2022
+base.0=C\:\\Users\\crash\\OneDrive\\Escritorio\\Vivero_Tita\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
